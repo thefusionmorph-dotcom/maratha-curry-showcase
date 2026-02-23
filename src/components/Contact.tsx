@@ -13,16 +13,16 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Call Us',
-      value: null,
-      action: null,
-      disabled: true,
+      value: '7083620896',
+      action: 'tel:7083620896',
+      disabled: false,
     },
     {
       icon: MessageCircle,
       label: 'WhatsApp',
-      value: null,
-      action: null,
-      disabled: true,
+      value: 'Chat with us',
+      action: 'https://wa.me/917083620896',
+      disabled: false,
     },
     {
       icon: Navigation,
